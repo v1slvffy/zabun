@@ -1,0 +1,26 @@
+{
+  "name": "zapun",
+  "version": "1.0.0",
+  "description": "",
+  "module": "src/index.ts",
+  "type": "module",
+  "author": "v1slvffy",
+  "license": "MIT",
+  "homepage": "https://github.com/v1slvffy/zabun",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch src/index.ts"
+  },
+  "dependencies": {
+    "@zapo-js/store-sqlite": "latest",
+    "node-webpmux": "^3.2.1",
+    "pino": "latest",
+    "pino-pretty": "latest",
+    "qrcode-terminal": "latest",
+    "zapo-js": "latest"
+  },
+  "devDependencies": {
+    "@types/qrcode-terminal": "latest",
+    "bun-types": "latest"
+  }
+}
