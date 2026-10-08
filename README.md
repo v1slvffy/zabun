@@ -12,7 +12,6 @@ Saluran WhatsApp Resmi: **[Ikuti Saluran WhatsApp](https://whatsapp.com/channel/
 - **Autentikasi Fleksibel:** Mendukung **Pairing Code** (kode tautan 8 digit) maupun scan **QR Code**. Sesi disimpan di SQLite lokal (`.auth/state.sqlite`).
 - **Auto-Reconnect Pintar:** Dilengkapi *exponential backoff retry* (1s s/d 30s) untuk menjaga koneksi tetap stabil tanpa *crash loop*.
 - **Arsitektur Modular:** Sistem *auto-loader* otomatis mendeteksi dan mendaftarkan perintah di folder `src/plugins/` tanpa memerlukan file `index.ts` penghubung di setiap subfolder.
-- **Tampilan Minimalis & Profesional:** Format pesan bersih, rapi, dan datar tanpa ornamen emoji berlebihan.
 
 ---
 
