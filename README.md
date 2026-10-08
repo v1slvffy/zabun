@@ -11,14 +11,14 @@ Saluran WhatsApp Resmi: **[Ikuti Saluran WhatsApp](https://whatsapp.com/channel/
 - **Ultra-Ringan & Cepat:** Berjalan di atas engine JavaScriptCore milik Bun. Bebas *bloatware*, waktu respon internal bot hanya 2–5 ms dengan alokasi heap RAM sekitar 8–16 MB.
 - **Autentikasi Fleksibel:** Mendukung **Pairing Code** (kode tautan 8 digit) maupun scan **QR Code**. Sesi disimpan di SQLite lokal (`.auth/state.sqlite`).
 - **Auto-Reconnect Pintar:** Dilengkapi *exponential backoff retry* (1s s/d 30s) untuk menjaga koneksi tetap stabil tanpa *crash loop*.
-- **Arsitektur Modular (1 Fitur = 1 File):** Sistem *auto-loader* otomatis mendeteksi dan mendaftarkan perintah di folder `src/plugins/` tanpa memerlukan file `index.ts` penghubung di setiap subfolder.
+- **Arsitektur Modular:** Sistem *auto-loader* otomatis mendeteksi dan mendaftarkan perintah di folder `src/plugins/` tanpa memerlukan file `index.ts` penghubung di setiap subfolder.
 - **Tampilan Minimalis & Profesional:** Format pesan bersih, rapi, dan datar tanpa ornamen emoji berlebihan.
 
 ---
 
 ## Prasyarat Sistem
 
-Sebelum menjalankan bot, pastikan server atau komputer Anda telah terpasang:
+Sebelum menjalankan bot, pastikan telah terpasang:
 1. **[Bun](https://bun.sh/)** (versi 1.1 ke atas)
    ```bash
    curl -fsSL https://bun.sh/install | bash
